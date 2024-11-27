@@ -1,0 +1,436 @@
+@media screen and (max-width: 765px){
+  .b-pink, .b-blue, .b-yellow, .b-green{
+    background-color: transparent;
+  }
+}
+@media screen and (min-width: 765px) {
+  /* navbar top */
+  .menu-toggle {
+    display: none;
+  }
+  .navbar-header {
+    justify-content: flex-start;
+    height: 105px;
+  }
+  .navbar-logo {
+    width: 82px;
+    height: 82px;
+  }
+  .full-width-container {
+    position: relative;
+  }
+  /* navigation */
+  .full-width-nav {
+    display: flex;
+  }
+  .nav-list :nth-child(7) {
+    display: none;
+  }
+  /* content */
+  .full-width-content {
+    display: flex;
+  }
+  /*  vdo*/
+  .img-1-3 {
+    width: 214px;
+    height: 120px;
+  }
+  .tittle-1,
+  .tittle-2,
+  .tittle-3 {
+    width: 214px;
+    padding-right: 7px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .img-4-11 {
+    width: 206px;
+    height: 116px;
+  }
+  .tittle-4,
+  .tittle-5,
+  .tittle-6,
+  .tittle-7,
+  .tittle-8,
+  .tittle-9,
+  .tittle-10,
+  .tittle-11 {
+    width: 206px;
+  }
+  .container-of-vdo {
+    position: relative;
+    width: 750px;
+    /* overflow:hidden; */
+    padding: 1rem;
+    margin: auto;
+  }
+  .vdo-container-influ {
+    padding: 0;
+  }
+  .vdo-container {
+    height: 576px;
+    padding: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    gap: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .flex-3,
+  .flex-4 {
+    flex-wrap: wrap;
+  }
+  .flex-3 {
+    gap: 2px;
+  }
+  .flex-4 {
+    gap: 12px;
+  }
+  /* technology */
+  .happy-container,
+  .technology-container,
+  .life-container,
+  .sport-container {
+    width: 100%;
+    justify-content: space-around;
+    padding: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .happy-flex-right,
+  .technology-flex-right,
+  .life-flex-right,
+  .sport-flex-right {
+    width: 271px;
+    flex-wrap: wrap;
+  }
+  .wrap-than-1-img {
+    width: 132px;
+    height: 74px;
+  }
+  .img-happy-right,
+  .img-technology-right,
+  .img-life-right,
+  .img-sport-right {
+    width: 100%;
+    height: 100%;
+  }
+  .caption-happy-right,
+  .caption-technology-right,
+  .caption-life-right,
+  .caption-sport-right {
+    width: 132px;
+  }
+  .wrap-1-img {
+    width: 350px;
+    height: 196px;
+  }
+  .img-happy-left,
+  .img-technology-left,
+  .img-life-left,
+  .img-sport-left {
+    width: 100%;
+    height: 100%;
+  }
+  .caption-happy-left,
+  .caption-technology-left,
+  .caption-life-left,
+  .caption-sport-left {
+    color: var(--tx-white);
+    width: 350px;
+    height: 136px;
+    padding: 15px 20px;
+    font-size: 24px;
+    overflow: hidden;
+  }
+  .arr-right {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 2.5%;
+    font-size: 21px;
+    cursor: pointer;
+  }
+  /* footer */
+  .address {
+    align-items: flex-start;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .tittle-footer {
+    text-align: start;
+  }
+  .h3-footer-2 {
+    text-align: start;
+    color: gray;
+    font-size: 1.4rem;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-logo-sabay {
+    margin-top: 1rem;
+    display: flex;
+    gap: 7px;
+  }
+  .logo-link > a > img {
+    width: 40px;
+    height: 40px;
+  }
+  .bold-text {
+    font-weight: bold;
+  }
+  /* entertainment */
+  .funny-container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+  }
+  .full-width-img > :not(:first-child) {
+    display: flex;
+    flex-direction: column;
+    padding: 7.5px 0;
+  }
+  .full-width-img > :nth-child(2) {
+    margin-top: 2rem;
+  }
+  .funny-container {
+    position: relative;
+    width: 750px;
+    padding: 1rem;
+    margin: auto;
+  }
+  .for-display {
+    display: flex;
+  }
+  .function {
+    display: flex;
+  }
+  .detail-date > :not(:first-child) {
+    display: flex;
+  }
+}
+@media screen and (min-width: 991px) {
+  .navbar-header,
+  .nav-list {
+    width: 970px;
+  }
+  /* navigation */
+  .nav-list :nth-child(8) {
+    display: none;
+  }
+  .nav-list :nth-child(7) {
+    display: flex;
+  }
+  /* content */
+  .content-left {
+    width: 368px;
+  }
+  .content-right-one,
+  .content-right-two {
+    width: 268px;
+  }
+  .tittle-content-left {
+    width: 328px;
+    /* height: 90px; */
+  }
+  .tittle-content-right {
+    width: 233px;
+    /* height: 120px; */
+  }
+  /* vdo */
+  .container-of-vdo {
+    width: 970px;
+  }
+  .vdo-container {
+    height: 614px;
+  }
+  .img-1-3 {
+    width: 288px;
+    height: 162px;
+  }
+  .tittle-1,
+  .tittle-2,
+  .tittle-3 {
+    width: 288px;
+    padding-right: 5px;
+  }
+  .img-4-11 {
+    width: 113px;
+    height: 63px;
+  }
+  .tittle-4,
+  .tittle-5,
+  .tittle-6,
+  .tittle-7,
+  .tittle-8,
+  .tittle-9,
+  .tittle-10,
+  .tittle-11 {
+    width: 113px;
+    height: 80px;
+    overflow-y: hidden;
+  }
+  .box-ads {
+    display: flex;
+  }
+  .flex-4 {
+    justify-content: flex-start;
+    width: 500px;
+  }
+  .flex-4-ads {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  /* technology */
+  .happy-flex-right,
+  .technology-flex-right,
+  .life-flex-right,
+  .sport-flex-right {
+    width: 485px;
+  }
+  .wrap-than-1-img {
+    width: 116px;
+    height: 65px;
+  }
+  .img-happy-right,
+  .img-technology-right,
+  .img-life-right,
+  .img-sport-right {
+    width: 100%;
+    height: 100%;
+  }
+  .caption-happy-left,
+  .caption-technology-left,
+  .caption-life-left,
+  .caption-sport-left {
+    height: auto;
+  }
+  .caption-happy-right,
+  .caption-technology-right,
+  .caption-life-right,
+  .caption-sport-right {
+    width: 116px;
+  }
+  /* footer */
+  .address {
+    width: 33%;
+  }
+  .about {
+    width: 42%;
+  }
+  .contact {
+    width: 25%;
+    margin-left: 2rem;
+  }
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .plan {
+    margin-top: 1rem;
+  }
+  /* entertainment */
+  .funny-container {
+    width: 970px;
+  }
+  .img-item-bottom {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .img-item-bottom > .detail-date {
+    width: 150%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar-header,
+  .nav-list {
+    width: 1170px;
+  }
+  /* content */
+  .content-left {
+    width: 485px;
+  }
+  .content-right-one,
+  .content-right-two {
+    width: 346px;
+  }
+  .tittle-content-left {
+    width: 445px;
+    /* height: 90px; */
+  }
+  .tittle-content-right {
+    width: 306px;
+    /* height: 90px; */
+  }
+  /* vdo */
+  .container-of-vdo {
+    width: 1170px;
+  }
+  .vdo-container {
+    height: 627px;
+  }
+  .img-1-3 {
+    width: 354px;
+    height: 199px;
+  }
+  .tittle-1,
+  .tittle-2,
+  .tittle-3 {
+    width: 354px;
+  }
+  .img-4-11 {
+    width: 163px;
+    height: 92px;
+  }
+  .tittle-4,
+  .tittle-5,
+  .tittle-6,
+  .tittle-7,
+  .tittle-8,
+  .tittle-9,
+  .tittle-10,
+  .tittle-11 {
+    width: 163px;
+    height: 60px;
+  }
+  .flex-4 {
+    width: 699px;
+  }
+  /* technology */
+  .happy-flex-right,
+  .technology-flex-right,
+  .life-flex-right,
+  .sport-flex-right {
+    width: 685px;
+  }
+  .wrap-than-1-img {
+    width: 166px;
+    height: 93px;
+  }
+  .img-happy-right,
+  .img-technology-right,
+  .img-life-right,
+  .img-sport-right {
+    width: 100%;
+    height: 100%;
+  }
+  .caption-happy-right,
+  .caption-technology-right,
+  .caption-life-right,
+  .caption-sport-right {
+    width: 166px;
+  }
+  /* entertainment */
+  .funny-container {
+    width: 1170px;
+  }
+}
