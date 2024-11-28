@@ -211,12 +211,14 @@ a {
   top: 1rem;
 }
 .conner-type {
-  border-bottom: 35px solid var(--b-yellow);
+  border-bottom: 29px solid var(--b-yellow);
   border-right: 15px solid transparent;
 }
 .type {
   color: var(--tx-white);
   padding: 0rem 0.7rem;
+  margin-top: auto;
+  font-size: 1.2rem;
   background-color: var(--b-yellow);
 }
 /* descripe */
@@ -266,25 +268,18 @@ a {
 .header-technology,
 .header-life,
 .header-sport {
-  position: relative;
+  display: flex;
+  justify-content: flex-start;
 }
 .vdo-h2,
 .h2-happy,
 .h2-technology,
 .h2-life,
 .h2-sport {
+  font-size: 1.5rem;
   padding: 0 1rem;
   color: var(--tx-white);
 }
-.conner-vdo,
-.conner-happy,
-.conner-technology,
-.conner-life,
-.conner-sport {
-  position: absolute;
-  top: 0;
-}
-
 .header-vdo {
   border-bottom: 5px solid var(--b-red);
 }
@@ -292,7 +287,6 @@ a {
   background-color: var(--b-red);
 }
 .conner-vdo {
-  left: 5.11rem;
   border-right: 20px solid transparent;
   border-bottom: 36px solid var(--b-red);
 }
@@ -304,7 +298,6 @@ a {
   background-color: var(--b-pink);
 }
 .conner-happy {
-  left: 5.9rem;
   border-right: 20px solid transparent;
   border-bottom: 36px solid var(--b-pink);
 }
@@ -316,7 +309,6 @@ a {
   background-color: var(--b-blue);
 }
 .conner-technology {
-  left: 7.3rem;
   border-right: 20px solid transparent;
   border-bottom: 36px solid var(--b-blue);
 }
@@ -328,7 +320,6 @@ a {
   background-color: var(--b-green);
 }
 .conner-life {
-  left: 8.7rem;
   border-right: 20px solid transparent;
   border-bottom: 36px solid var(--b-green);
 }
@@ -340,7 +331,6 @@ a {
   background-color: var(--b-yellow);
 }
 .conner-sport {
-  left: 5.2rem;
   border-right: 20px solid transparent;
   border-bottom: 36px solid var(--b-yellow);
 }

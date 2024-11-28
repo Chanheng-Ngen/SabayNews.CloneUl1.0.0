@@ -26,6 +26,10 @@
   .nav-list :nth-child(7) {
     display: none;
   }
+  /* slide */
+  #carouselExample {
+    display: none;
+  }
   /* content */
   .full-width-content {
     display: flex;
