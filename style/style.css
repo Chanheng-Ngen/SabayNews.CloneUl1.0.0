@@ -844,7 +844,7 @@ a {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .detail-date > :not(:first-child) {
   display: none;
@@ -852,6 +852,7 @@ a {
 .caption-img-item,
 .date-post,
 .detail {
+  width: 100%;
   position: relative;
   text-align: start;
   font-size: 1rem;
