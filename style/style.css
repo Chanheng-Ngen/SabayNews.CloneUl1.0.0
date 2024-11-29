@@ -21,7 +21,7 @@
 body {
   /* height: 300vh; */
   width: 100%;
-  font-family: "Battambang", system-ui;
+  font-family: 'Battambang', system-ui;
   overflow-x: hidden;
 }
 li {
@@ -49,7 +49,8 @@ a {
 }
 .bg-red {
   background-color: var(--b-red);
-}.b-pink {
+}
+.b-pink {
   background-color: var(--b-pink);
 }
 .b-blue {
@@ -62,9 +63,10 @@ a {
   background-color: var(--b-yellow);
 }
 .menu-toggle {
-  position: relative;
+  position: fixed;
   font-size: 1.4rem;
   color: var(--tx-white);
+  z-index: 1;
 }
 .menu-toggle > i {
   position: absolute;
@@ -172,7 +174,7 @@ a {
   position: relative;
   width: 170px;
   height: 254px;
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673c8a82ab3a5_1732020840_medium.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673c8a82ab3a5_1732020840_medium.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -181,7 +183,7 @@ a {
   position: relative;
   width: 170px;
   height: 254px;
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673bd22b2a6bf_1731973620_medium.png");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673bd22b2a6bf_1731973620_medium.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -408,37 +410,37 @@ a {
   height: 100%;
 }
 .img-1 {
-  background-image: url("../img/img-1-vdo.png");
+  background-image: url('../img/img-1-vdo.png');
 }
 .img-2 {
-  background-image: url("../img/img-2-vdo.png");
+  background-image: url('../img/img-2-vdo.png');
 }
 .img-3 {
-  background-image: url("../img/img-3-vdo.jpg");
+  background-image: url('../img/img-3-vdo.jpg');
 }
 .img-4 {
-  background-image: url("../img/img-4-vdo.jpg");
+  background-image: url('../img/img-4-vdo.jpg');
 }
 .img-5 {
-  background-image: url("../img/img-5-vdo.jpg");
+  background-image: url('../img/img-5-vdo.jpg');
 }
 .img-6 {
-  background-image: url("../img/img-6-vdo.jpg");
+  background-image: url('../img/img-6-vdo.jpg');
 }
 .img-7 {
-  background-image: url("../img/img-7-vdo.jpg");
+  background-image: url('../img/img-7-vdo.jpg');
 }
 .img-8 {
-  background-image: url("../img/img-8-vdo.jpg");
+  background-image: url('../img/img-8-vdo.jpg');
 }
 .img-9 {
-  background-image: url("../img/img-9-vdo.jpg");
+  background-image: url('../img/img-9-vdo.jpg');
 }
 .img-10 {
-  background-image: url("../img/img-10-vdo.png");
+  background-image: url('../img/img-10-vdo.png');
 }
 .img-11 {
-  background-image: url("../img/img-11-vdo.jpg");
+  background-image: url('../img/img-11-vdo.jpg');
 }
 /* technology content */
 .happy-container,
@@ -471,112 +473,112 @@ a {
   background-size: cover;
 }
 .img-happy-left {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/673d8f0af3867_1732087560_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/673d8f0af3867_1732087560_small.jpg');
 }
 .img-technology-left {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/673d8b00c4c9e_1732086480_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/673d8b00c4c9e_1732086480_small.jpg');
 }
 .img-life-left {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/673d94762278d_1732088940_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/673d94762278d_1732088940_small.jpg');
 }
 .img-sport-left {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Kun-Khmer-Boxing/Kunkhmer-Fede/Kun-Fed1/673d79e9cc3f6_1732082100_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Kun-Khmer-Boxing/Kunkhmer-Fede/Kun-Fed1/673d79e9cc3f6_1732082100_small.jpg');
 }
 .img-1-happy {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-(37)/CS-9/673bef2b46ab6_1731981060_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-(37)/CS-9/673bef2b46ab6_1731981060_small.jpg');
 }
 .img-2-happy {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-(37)/CS-9/673309a2d3116_1731398040_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-(37)/CS-9/673309a2d3116_1731398040_small.jpg');
 }
 .img-3-happy {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal082/6731c78294312_1731315540_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal082/6731c78294312_1731315540_small.jpg');
 }
 .img-4-happy {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal082/6731b4fd5bb73_1731310800_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal082/6731b4fd5bb73_1731310800_small.jpg');
 }
 .img-5-happy {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/internTeam/Dalya/dalya001/67317df846025_1731296760_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/internTeam/Dalya/dalya001/67317df846025_1731296760_small.jpg');
 }
 .img-6-happy {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal082/672db1c9046a6_1731047880_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal082/672db1c9046a6_1731047880_small.jpg');
 }
 .img-7-happy {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/internTeam/Dalya/dalya001/67299e9085667_1730780760_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/internTeam/Dalya/dalya001/67299e9085667_1730780760_small.jpg');
 }
 .img-8-happy {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/internTeam/Dalya/dalya001/6728479cd1648_1730692980_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/internTeam/Dalya/dalya001/6728479cd1648_1730692980_small.jpg');
 }
 .img-1-technology {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673c152f9fa92_1731990780_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673c152f9fa92_1731990780_small.jpg');
 }
 .img-2-technology {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/673abc264de20_1731902460_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/673abc264de20_1731902460_small.jpg');
 }
 .img-3-technology {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/6734373cb1706_1731475260_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/6734373cb1706_1731475260_small.jpg');
 }
 .img-4-technology {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/67330e1a9c6dd_1731399180_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/67330e1a9c6dd_1731399180_small.jpg');
 }
 .img-5-technology {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/6732ff53485e3_1731395400_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/6732ff53485e3_1731395400_small.jpg');
 }
 .img-6-technology {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal082/67316ef24ec9f_1731292860_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal082/67316ef24ec9f_1731292860_small.jpg');
 }
 .img-7-technology {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal082/672db9432ba08_1731049740_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal082/672db9432ba08_1731049740_small.jpg');
 }
 .img-8-technology {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal045/620371b981b33_1644392880_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal045/620371b981b33_1644392880_small.jpg');
 }
 .img-1-life {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673c08fb14245_1731987660_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673c08fb14245_1731987660_small.jpg');
 }
 .img-2-life {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673c08fb14245_1731987660_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673c08fb14245_1731987660_small.jpg');
 }
 .img-3-life {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673c05320218c_1731986700_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673c05320218c_1731986700_small.jpg');
 }
 .img-4-life {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673ae097d0049_1731911820_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673ae097d0049_1731911820_small.jpg');
 }
 .img-5-life {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673adc3e9137a_1731910680_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673adc3e9137a_1731910680_small.jpg');
 }
 .img-6-life {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Kanha/2024-Kanha/photo-Nov/673aaf0e036eb_1731899100_small.png");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Kanha/2024-Kanha/photo-Nov/673aaf0e036eb_1731899100_small.png');
 }
 .img-7-life {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673ac040ce408_1731903540_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673ac040ce408_1731903540_small.jpg');
 }
 .img-8-life {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673ab8929fa07_1731901560_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/673ab8929fa07_1731901560_small.jpg');
 }
 .img-1-sport {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Kun-Khmer-Boxing/Kunkhmer-Fede/673d602f9ff32_1732075560_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Kun-Khmer-Boxing/Kunkhmer-Fede/673d602f9ff32_1732075560_small.jpg');
 }
 .img-2-sport {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673d2b6262aba_1732062000_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673d2b6262aba_1732062000_small.jpg');
 }
 .img-3-sport {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673c8a82ab3a5_1732020840_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673c8a82ab3a5_1732020840_small.jpg');
 }
 .img-4-sport {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673bd22b2a6bf_1731973620_small.png");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673bd22b2a6bf_1731973620_small.png');
 }
 .img-5-sport {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673b3e951e675_1731935880_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673b3e951e675_1731935880_small.jpg');
 }
 .img-6-sport {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Autor-racing/OFF-ROAD3/673ae9b86332b_1731914160_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Autor-racing/OFF-ROAD3/673ae9b86332b_1731914160_small.jpg');
 }
 .img-7-sport {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673a96af882e0_1731892860_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/673a96af882e0_1731892860_small.jpg');
 }
 .img-8-sport {
-  background-image: url("https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Taekwondo/Taekwondo-ITF8/6734c12d52efb_1731510540_small.jpg");
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Sport-News/Local-Sports/Taekwondo/Taekwondo-ITF8/6734c12d52efb_1731510540_small.jpg');
 }
 .happy-flex-right,
 .technology-flex-right,
@@ -823,7 +825,7 @@ a {
   padding-top: 15px;
   gap: 1rem;
 }
-.img-item-top,
+.img-item-top,  
 .img-item-bottom {
   width: 100%;
   display: flex;
@@ -852,7 +854,7 @@ a {
 .detail {
   position: relative;
   text-align: start;
-  font-size: 14px;
+  font-size: 1rem;
   color: var(--tx-black-44);
 }
 .caption-img-item {
@@ -874,7 +876,7 @@ a {
 .article-new {
   margin-top: 2rem;
 }
-.all-small-img {
+.all-small-img, .all-small-img-under {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -895,10 +897,46 @@ a {
 .wrap-small-img > a > .b-img {
   width: 40px;
   height: 40px;
-  background-image: url("../img/entertainmentWeb.jpg");
+  background-color: var(--b-black);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.all-small-img > :nth-child(1)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-/CJ/Bin-Bunna/Food(8)/5eb107b74d7b9_1588660140_extra_small.jpg ');
+}
+.all-small-img > :nth-child(2)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/6747b0cbba0c7_1732751520_extra_small.jpg');
+}
+.all-small-img > :nth-child(3)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/uoiupio/674579c308b10_1732606380_extra_small.jpg');
+}
+.all-small-img > :nth-child(4)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal084/6747d7a92ef00_1732761480_extra_small.jpg');
+}
+.all-small-img > :nth-child(5)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/uploads/2014/11/feature56-150x150.jpg');
+}
+.all-small-img > :nth-child(6)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-(37)/CS-9/674081b258838_1732280700_extra_small.jpg');
+}
+.all-small-img-under > :nth-child(1)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal083/673eb47ff16e0_1732162680_extra_small.jpg');
+}
+.all-small-img-under> :nth-child(2)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/6748fdbdab786_1732836780_extra_small.jpg');
+}
+.all-small-img-under > :nth-child(3)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/dfhghrty/674839dee80fa_1732786620_extra_small.jpg');
+}
+.all-small-img-under > :nth-child(4)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Srey-Sovandara/Srey-Sovandara4/6747b0cbba0c7_1732751520_extra_small.jpg');
+}
+.all-small-img-under > :nth-child(5)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/KOSAL/kosal084/6747d7a92ef00_1732761480_extra_small.jpg');
+}
+.all-small-img-under > :nth-child(6)> a > .b-img {
+  background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Tepsovanmoly(1)/dfhghrty/6747d0826d575_1732759680_extra_small.jpg');
 }
 .cap-small-img {
   font-size: 14px;

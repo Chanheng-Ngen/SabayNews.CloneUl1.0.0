@@ -1,8 +1,3 @@
-@media screen and (max-width: 765px){
-  .b-pink, .b-blue, .b-yellow, .b-green{
-    background-color: transparent;
-  }
-}
 @media screen and (min-width: 765px) {
   /* navbar top */
   .menu-toggle {
@@ -156,6 +151,18 @@
     right: 2.5%;
     font-size: 21px;
     cursor: pointer;
+  }
+  .caption-happy-left{
+    background-color: var(--b-pink);
+  }
+  .caption-technology-left{
+    background-color: var(--b-blue);
+  }
+  .caption-life-left{
+    background-color: var(--b-green);
+  }
+  .caption-sport-left{
+    background-color: var(--b-yellow);
   }
   /* footer */
   .address {
