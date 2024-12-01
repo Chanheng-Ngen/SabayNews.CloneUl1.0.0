@@ -226,6 +226,13 @@
   .detail-date > :not(:first-child) {
     display: flex;
   }
+  /* width and height of img each section soving */
+  .img-item-top > .img-wrap{
+    height: 120px;
+  }
+  .img-wrap{
+    height: 170px;
+  }
 }
 @media screen and (min-width: 991px) {
   .navbar-header,
@@ -361,6 +368,10 @@
   .img-item-bottom > .detail-date{
     width: 150%;
   }
+   /* width and height of img each section soving */
+   .img-item-top > .img-wrap{
+    height: 159px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .navbar-header,
@@ -444,5 +455,8 @@
   /* entertainment */
   .funny-container {
     width: 1170px;
+  }
+  .img-wrap,.img-item-top > .img-wrap{
+    height: 177px;
   }
 }
