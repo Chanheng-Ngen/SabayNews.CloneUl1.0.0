@@ -784,7 +784,6 @@ a {
   position: relative;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
 }
 .funny {
   font-size: 19px;
