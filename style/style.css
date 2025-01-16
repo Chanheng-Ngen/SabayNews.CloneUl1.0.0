@@ -137,6 +137,12 @@ a {
   cursor: pointer;
   color: var(--tx-white);
 }
+.menu-drob {
+  display: none; 
+}
+.menu-drob.show {
+  display: block;
+}
 /* block content */
 .full-width-content {
   width: 100%;
